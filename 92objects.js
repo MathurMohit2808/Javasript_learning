@@ -55,3 +55,7 @@ Object.values(obj3);
 
 console.log(obj3.hasOwnProperty('islogged1'));
 
+
+
+
+

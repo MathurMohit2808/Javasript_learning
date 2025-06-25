@@ -4,3 +4,5 @@ console.log(true && [])
 
 console.log(false || " ")
 // || will return first true value
+
+// ! has higher than && has higher prescedence than ||

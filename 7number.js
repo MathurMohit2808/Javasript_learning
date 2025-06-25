@@ -11,6 +11,11 @@ const s1 = n1.toString();
 console.log(typeof(s1));
 
 // toFixed(precision to how much decimal)
-
-const n2 = 32.3450423143;
+// if 5 it will round to +1
+const n2 = 32.3450;
 console.log(n2.toFixed(2));
+
+// to set max and min values
+const min1 = Number.MAX_VALUE;
+const max1 = Number.MIN_VALUE;
+

@@ -44,5 +44,7 @@ const na3 = [...a1, ...a2];
 
 // to check if it is array
 console.log(Array.isArray("Hitesh"));
+
+// to convert to array
 console.log(Array.from("Hitesh"));
 
