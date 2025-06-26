@@ -57,4 +57,13 @@ const finded = a1.find((value,index) => {
     return value % 2 === 0;
 });
 
-console.log(finded);                               
+console.log(finded);
+
+
+// reduce is used to combine the whole array in one
+const sum = a1.reduce((prev,curr) => {
+    return prev + curr;
+},0)
+
+console.log(sum);
+
